@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end
   
   post '/chekcout' do
+    @session = session
     
   end
     
