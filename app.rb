@@ -13,7 +13,7 @@ class App < Sinatra::Base
   
   post '/chekcout' do
     @session = session
-    
+    session[:item] = params[:item]
   end
     
 end
